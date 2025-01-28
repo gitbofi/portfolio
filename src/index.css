@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(/src/assets/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Anuphan";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(/src/assets/fonts/Anuphan-VariableFont_wght.ttf);
+}
+
+@theme {
+  --font-hero: "Outfit", "sans-serif";
+  --font-copy: "Anuphan", sans-serif;
+
+  --color-grey: "#312C2C";
+  --color-black: "#0C0B0B";
+  --color-light: "#EBF0F1";
+  --color-lightblue: #1190ff;
+  --color-blue: #2555ff;
+  --color-purple: #783eff;
+}
