@@ -1,9 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
-import { arrow } from "../utils";
+import { pngarrow } from "../utils";
 
-const Button = () => {
+const ButtonBlue = () => {
   const { t, i18n } = useTranslation();
 
   return (
@@ -14,12 +14,19 @@ const Button = () => {
       easing="easeInOutCubic"
       duration={1000}
     >
-      <span className="font-copy text-xl font-semibold text-neutral-100">
+      <span className="font-copy text-xl font-medium text-neutral-100">
         {t("heroCtaBtn")}
       </span>
-      <img src={arrow} alt="" typeof="image/svg+xml" height={20} width={20} />
+      <img
+        src={pngarrow}
+        alt=""
+        typeof="image/png"
+        height={12}
+        width={12}
+        className="w-4 h-4 self-center mb-0.5"
+      />
     </Link>
   );
 };
 
-export default Button;
+export default ButtonBlue;

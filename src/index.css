@@ -16,12 +16,29 @@
 
 @theme {
   --font-hero: "Outfit", "sans-serif";
-  --font-copy: "Anuphan", sans-serif;
+  --font-copy: "Anuphan", "sans-serif";
+  --font-wooliesheading: "Artifika", "serif";
+  --font-wooliescopy: "Now", "sans-serif";
 
   --color-grey: "#312C2C";
   --color-black: "#0C0B0B";
-  --color-light: "#EBF0F1";
+  --color-textlight: "#EBF0F1";
   --color-lightblue: #1190ff;
   --color-blue: #2555ff;
   --color-purple: #783eff;
+  --color-lightbg: #ebf2f4;
+  --color-textgrey: #899198;
+}
+
+@font-face {
+  font-family: "Artifika";
+  src: url(/src/assets/fonts/Artifika-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Now";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/Now-Regular.otf);
 }
