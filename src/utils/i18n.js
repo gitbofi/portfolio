@@ -7,7 +7,7 @@ const resources = {
       // Hero Section
       home: "Home",
       companyLogo: "Company Logo",
-      welcome: "I design user-friendly, engaging digital Experiences.",
+      welcome: "I design\nuser-friendly, engaging digital Experiences.",
       heroCtaBtn: "Discover my work",
       heroAboutBtn: "About me",
       heroContactBtn: "Contact",

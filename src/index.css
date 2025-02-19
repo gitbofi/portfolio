@@ -42,3 +42,7 @@
   font-weight: 400;
   src: url(/assets/fonts/Now-Regular.otf);
 }
+
+#root {
+  white-space: pre-line;
+}
